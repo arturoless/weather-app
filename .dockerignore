@@ -1,0 +1,25 @@
+# Git files
+.git/
+*.git*
+
+# Python cache and bytecode files
+__pycache__/
+*.pyc
+
+# Logs and temporary files
+*.log
+.tmp*
+
+# Cache
+__pycache__
+
+# IDE-specific files
+.idea/
+**/.vscode/
+
+# Testing files (if not part of the main application code)
+tests.py
+tests/*
+
+# Documentation build files (if not part of the main application code)
+docs/_build/

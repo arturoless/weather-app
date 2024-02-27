@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# PyCharm or VS Code IDE files (optional)
+.idea/
+**/.vscode/
+
+# Virtual environment folders
+.venv/
+env/
+venv/
+
+# Cache
+__pycache__
+
+# Test coverage reports
+coverage/
+
+# Documentation build files (if using Sphinx or similar)
+docs/_build/
+
+# Docker build context files (managed by Dockerfile.ignore)
+**/Dockerfile.ignore
