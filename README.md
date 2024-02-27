@@ -91,16 +91,16 @@ Replace `<city>` with the name of the desired city.
 
 Unit tests are included in the tests.py file to ensure the functionality of the API. You can run the tests using:
 
-   ```bash
-   python -m unittest tests.py
-   ```
+```bash
+python -m unittest tests.py
+```
 
 **Documentation:**
 
 The API documentation is included within the Flask application's docstrings through comments. 
 Also, you can see the Postman documentation here: 
 ```
-    https://documenter.getpostman.com/view/12815442/2sA2rFRKtV
+https://documenter.getpostman.com/view/12815442/2sA2rFRKtV
 ```
 
 **Contributing:**
