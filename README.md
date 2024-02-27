@@ -19,7 +19,7 @@ This repository contains a Flask API that allows users to compare the weather fo
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/reservamos-weather-api.git
+   git clone https://github.com/arturoless/weather-app.git
    ```
 
 2. Replace `API_KEY` and `RESERVAMOS_API_URL` in the `Dockerfile` with your actual OpenWeatherMap API key.
@@ -37,13 +37,13 @@ This repository contains a Flask API that allows users to compare the weather fo
 1. Build the Docker image:
 
    ```bash
-   docker build -t weather-api .
+   docker build -t weather-app .
    ```
 
 2. Run the container:
 
    ```bash
-   docker run -p 5000:5000 weather-api
+   docker run -p 5000:5000 weather-app
    ```
 
 **Option 2: Running Directly (Development):**
