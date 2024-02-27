@@ -58,4 +58,8 @@ def get_weather(city):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    if os.environ.get('DEBUG', 'False') == 'True':
+        app.run(debug=True)
+    else:
+        app.run(host='0.0.0.0')
+

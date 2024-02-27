@@ -16,6 +16,7 @@ COPY . .
 # Set environment variable for API key (replace with your actual key)
 ENV API_KEY='0eebd1fcf852d29ca0340c5c451d4c9a'
 ENV RESERVAMOS_API_URL='https://search.reservamos.mx/api/v2/places'
+ENV DEBUG=False
 
 # Expose port 5000
 EXPOSE 5000

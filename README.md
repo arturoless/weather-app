@@ -83,6 +83,7 @@ Replace `<city>` with the name of the desired city.
 
 **Environment Variables:**
 
+- `DEBUG`: Set the development or productive mode (required)
 - `API_KEY`: Your OpenWeatherMap API key (required)
 - `RESERVAMOS_API_URL`: Reservamos API endpoint (required)
 
@@ -97,6 +98,10 @@ Unit tests are included in the tests.py file to ensure the functionality of the 
 **Documentation:**
 
 The API documentation is included within the Flask application's docstrings through comments. 
+Also, you can see the Postman documentation here: 
+```
+    https://documenter.getpostman.com/view/12815442/2sA2rFRKtV
+```
 
 **Contributing:**
 
