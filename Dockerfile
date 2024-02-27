@@ -21,4 +21,4 @@ ENV RESERVAMOS_API_URL='https://search.reservamos.mx/api/v2/places'
 EXPOSE 5000
 
 # Run the app
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
