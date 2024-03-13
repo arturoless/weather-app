@@ -51,7 +51,7 @@ This repository contains a Flask API that allows users to compare the weather fo
 1. Start the development server:
 
    ```bash
-   python app.py
+   python main.py
    ```
 
 **API Usage:**
